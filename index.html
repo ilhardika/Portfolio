@@ -10,34 +10,46 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <section id="navbar">
-        <nav class="navbar navbar-expand-lg bg-white">
-            <div class="container">
-              <a class="navbar-brand fs-4 fw-bold" href="#">John Doe</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Work</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="#">John Doe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+            </ul>
             </div>
-          </nav>
-    </section>
-    <section id="home">
-        
+        </div>
+        </nav>
+    <section id="home" class="home container">
+        <div class="row d-flex align-items-center">
+            <div class="col-8">
+                <h2 class="fw-semibold">Hi! I am</h2>
+                <h1 class="fw-bold">John Doe</h1>
+                <p>I am Software Engineer based in Indonesia</p>
+                <a href="images/potrait.png" class="btn" download>Resume</a>
+            </div>
+            <div class="col-4">
+                <img src="images/potrait.png" alt="">
+            </div>
+        </div>
+        <div class="d-flex flex-column align-items-center mt-5">
+            <p class="fs-6 fw-bold">More info</p>
+            <img id="arrow" src="images/arrow.svg" width="48" alt="">
+        </div>
     </section>
 
     <!-- JavaScript-->
